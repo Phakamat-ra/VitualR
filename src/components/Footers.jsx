@@ -1,6 +1,6 @@
 import { resourcesLinks,platformLinks,communityLinks } from "../constant"
 
-const Footer = () => {
+const Footers = () => {
   return (
     <footer className="mt-20 border-t py-10 border-neutral-700">
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -39,4 +39,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footers
